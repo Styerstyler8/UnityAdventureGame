@@ -1,0 +1,233 @@
+[
+  {
+    "name": "DebugPotion",
+    "itemDescription": "This is a simple testing potion.",
+    "itemType": "Consumable",
+    "sellable": true,
+    "stackable": true,
+    "itemCost": "5",
+    "weight": "0.2",
+    "interactName": "Drink",
+    "craftable": true,
+    "quantity": "0",
+    "effectsStats": false
+  },
+  {
+		"name": "Iron Sword Recipe", 
+		"itemDescription": "Make an item sword using 20 Wood.",
+		"itemType": "Craftable", 
+		"sellable": true, 
+		"stackable": true, 
+		"itemCost": "3", 
+		"weight": "3", 
+		"interactName": "TEST", 
+		"craftable": true, 
+		"quantity": "0", 
+		"effectsStats": false,
+		"Item1" : "Wood",
+		"Item2": "Wood",
+		"quantity1": "20",
+		"quantity2": "0",
+		"Item3" : "Sword"
+  }, 
+  {
+    "name": "Sword",
+    "itemDescription": "This is a sword.",
+    "itemType": "Weapon",
+    "sellable": true,
+    "stackable": false,
+    "itemCost": "10",
+    "weight": "2",
+    "interactName": "Equip",
+    "craftable": true,
+    "quantity": "0",
+    "effectStats": false,
+    "rotation_x": "90",
+    "rotation_y": "0",
+    "rotation_z": "0",
+    "position_x": "-.078",
+    "position_y": ".031",
+    "position_z": ".07",
+    "animationKey": "swordEquipped",
+    "stats": [
+      {
+        "type": "Attack",
+        "baseValue": 45,
+        "name": "Attack Damage",
+        "discription": "This does damage"
+      },
+      {
+        "type": "Defense",
+        "baseValue": 0,
+        "name": "Defense (armor op)",
+        "discription": "This prevents damage"
+      },
+      {
+        "type": "Constitution",
+        "baseValue": 0,
+        "name": "Constution (health)",
+        "discription": "How much raw damage you can take"
+      },
+      {
+        "type": "Vitality",
+        "baseValue": 0,
+        "name": "Vitality (energy)",
+        "discription": "Determines crit"
+      }
+    ]
+  },
+  {
+    "name": "Axe",
+    "itemDescription": "This is an Axe.",
+    "itemType": "Weapon",
+    "sellable": true,
+    "stackable": false,
+    "itemCost": "10",
+    "weight": "2",
+    "interactName": "Equip",
+    "craftable": true,
+    "quantity": "0",
+    "effectStats": false,
+    "rotation_x": "-166.201",
+    "rotation_y": "180",
+    "rotation_z": "-130",
+    "position_x": "-.096",
+    "position_y": ".145",
+    "position_z": ".39",
+    "animationKey": "axeEquipped",
+    "stats": [
+      {
+        "type": "Attack",
+        "baseValue": 61,
+        "name": "Attack Damage",
+        "discription": "This does damage"
+      },
+      {
+        "type": "Defense",
+        "baseValue": 0,
+        "name": "Defense (armor op)",
+        "discription": "This prevents damage"
+      },
+      {
+        "type": "Constitution",
+        "baseValue": 0,
+        "name": "Constution (health)",
+        "discription": "How much raw damage you can take"
+      },
+      {
+        "type": "Vitality",
+        "baseValue": 0,
+        "name": "Vitality (energy)",
+        "discription": "Determines crit"
+      }
+    ]
+  },
+  {
+    "name": "Sword_2H",
+    "itemDescription": "This is a 2 handed sword.",
+    "itemType": "Weapon",
+    "sellable": true,
+    "stackable": false,
+    "itemCost": "10",
+    "weight": "2",
+    "interactName": "Equip",
+    "craftable": true,
+    "quantity": "0",
+    "effectStats": false,
+    "rotation_x": "-190",
+    "rotation_y": ".891",
+    "rotation_z": "91.712",
+    "position_x": "-.046",
+    "position_y": ".034",
+    "position_z": ".015",
+    "animationKey": "2HEquipped",
+    "stats": [
+      {
+        "type": "Attack",
+        "baseValue": 90,
+        "name": "Attack Damage",
+        "discription": "This does damage"
+      },
+      {
+        "type": "Defense",
+        "baseValue": 0,
+        "name": "Defense (armor op)",
+        "discription": "This prevents damage"
+      },
+      {
+        "type": "Constitution",
+        "baseValue": 0,
+        "name": "Constution (health)",
+        "discription": "How much raw damage you can take"
+      },
+      {
+        "type": "Vitality",
+        "baseValue": 0,
+        "name": "Vitality (energy)",
+        "discription": "Determines crit"
+      }
+    ]
+  },
+  {
+    "name": "Iron Helmet",
+    "itemDescription": "This is a helmet made of iron believe it or not.",
+    "itemType": "Armor",
+    "sellable": true,
+    "stackable": false,
+    "itemCost": "15",
+    "weight": "4",
+    "interactName": "Put on head",
+    "craftable": true,
+    "quantity": "0",
+    "effectStats": false,
+    "stats": [
+      {
+        "baseValue": 5,
+        "name": "Defense"
+      }
+    ]
+  },
+  {
+    "name": "Iron Shield",
+    "itemDescription": "This is a shield made of... Iron.",
+    "itemType": "Shield",
+    "sellable": true,
+    "stackable": false,
+    "itemCost": "8",
+    "weight": "3",
+    "interactName": "Put on hand",
+    "craftable": true,
+    "quantity": "0",
+    "effectStats": false,
+    "stats": [
+      {
+        "baseValue": 9,
+        "name": "Defense"
+      }
+    ]
+  },
+  {
+    "name": "Wood",
+    "itemDescription": "Wood from an old maple tree.",
+    "itemType": "Resource",
+    "sellable": true,
+    "stackable": true,
+    "itemCost": "8",
+    "weight": "0.1",
+    "craftable": false,
+    "quantity": "0",
+    "effectStats": false
+  },
+  {
+    "name": "Stone",
+    "itemDescription": "A solid material used for various things",
+    "itemType": "Resource",
+    "sellable": true,
+    "stackable": true,
+    "itemCost": "8",
+    "weight": "0.1",
+    "craftable": false,
+    "quantity": "0",
+    "effectStats": false
+  }
+]
